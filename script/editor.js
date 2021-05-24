@@ -3,28 +3,11 @@ let output = document.getElementById('output');
 let runBtn = document.getElementById('runBtn');
 let resetBtn = document.getElementById('resetBtn');
 
-window.onload = () => {
-    //input.value = '';
-    //output.value = '';
-}
-
-/* window.onerror = (message, source, lineno, colno, error) => {
-    console.log('Start onerror');
-    console.log(message);
-    console.log(source);
-    console.log(lineno);
-    console.log(colno);
-    console.log(error);
-    console.log('End onerror');
-} */
-
-
 const config = {
     editor: {
         mode: 'javascript',
         lineNumbers: true,
-        lineWrapping: true,
-        value: "for(let i = 2; i <= 10; i++){ \n console.log(\"Kvadrattallet til \" + i + \" er \"+i*i); \n }"
+        lineWrapping: true
     },
     console: {
         readOnly: 'nocursor',
